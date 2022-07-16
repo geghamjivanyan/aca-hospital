@@ -1,0 +1,8 @@
+<h1>Doctors</h1>
+
+<ul>
+{% for d in doctor_list %}
+<li>{{ d.user.first_name }} {{ d.user.last_name }} {{ d.discipline }}</li>
+{% endfor %}
+</ul>
+

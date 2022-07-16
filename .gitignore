@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+hospital/hs_models/migrations/
 # C extensions
 *.so
 

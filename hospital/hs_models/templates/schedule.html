@@ -1,0 +1,8 @@
+<h1>Schedule</h1>
+
+<ul>
+{% for s in schedule_list %}
+<li><strong>Doctor</strong> {{ s.doctor.user.first_name }} {{ s.doctor.user.last_name }}  - <strong>Patient</strong> {{s.patient.user.first_name}} {{ s.patient.user.last_name}} - <strong>Meet Time</strong> {{s.meet_time}}</li>
+{% endfor %}
+</ul>
+

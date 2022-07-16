@@ -1,0 +1,9 @@
+<h1>Patients</h1>
+
+<ul>
+{% for p in patient_list %}
+<li>{{ p.user.first_name }} {{ p.user.last_name }} {{ p.age }} {{p.gender}}</li>
+{% endfor %}
+</ul>
+<a href='http://localhost:8000/api/patient'>Add new patient</a>
+
